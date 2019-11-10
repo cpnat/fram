@@ -1,6 +1,6 @@
-## Data loader for Amundsen experiment
+## Data load scripts for Amundsen experiment
 
-![](fram.jpg)
+![](Amundsen-Fram.jpg)
 
 1) Pip install requirements.txt
 
@@ -13,6 +13,6 @@
     
 Also see https://github.com/lyft/amundsendatabuilder#amundsen-databuilder
 
-Note, databuilder.extractor.bigquery_usage_extractor has a bug; and requires a try except block to wrap refTables iteration (will submit a PR - line 107)
+Note, databuilder.extractor.bigquery_usage_extractor has a bug; and requires an exception handler to wrap refTables iteration (will submit a PR - line 107)
            
 
