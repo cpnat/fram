@@ -1,6 +1,5 @@
 import sys
 import os
-sys.path.append('/Users/colin/Projects/fram/')
 from fram.pipelines.bigquery_pipeline import BigQueryPipeline
 
 if __name__ == "__main__":
