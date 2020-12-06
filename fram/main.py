@@ -1,7 +1,7 @@
 import argparse, sys
 from fram.pipelines.bigquery_pipeline import BigQueryPipeline
 
-if __name__ == "__main__":
+if __name__ == '__main__':
 
     parser=argparse.ArgumentParser()
     parser.add_argument('--gcloud_project', help='GCP project from which to obtain Bigquery metadata')
